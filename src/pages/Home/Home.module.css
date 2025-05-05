@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body{
+    margin: 0;
+    background-color: rgb(5,5,5);
+    width: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.flexContainer {
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 90vh;
+    gap: 12px;
+}
+
+/* Left Side */
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.leftFirstCard{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 25, 25);
+    border-radius: 20px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid rgb(49, 49, 49);
+    gap: 10px;
+}
+
+.leftFirstCardTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: 2px;
+}
+
+.leftFirstCardTitle .title{
+    color: rgb(234, 234, 234);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.leftFirstCardTitle .titleCategory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    color: rgb(132, 132, 132);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.firstCardOverview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Middle Side */
+.middleContainer {
+    display: flex;
+    flex: 1 1;
+    background-color: rgb(134, 134, 134);
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+/* Right Side */
+.rightContainer {
+    display: flex;
+    flex: 1 1;
+    background-color: rgb(63, 56, 56);
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
