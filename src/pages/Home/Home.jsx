@@ -471,22 +471,22 @@ export default function OJTPortfolio() {
       switch(docType) {
         case 'endorsement':
           modalTitle.textContent = 'Endorsement Letter';
-          modalPdf.src = '/public/JustineCabreros_Endorsement Letter.pdf'; // Replace with actual PDF path
+          modalPdf.src = '/JustineCabreros_Endorsement Letter.pdf'; // Replace with actual PDF path
           modalDescription.textContent = 'PDF Preview - Endorsement Letter';
           break;
         case 'confirmation':
           modalTitle.textContent = 'Confirmation Letter';
-          modalPdf.src = '/public/JustineCabreros_Confirmation Letter.pdf'; // Replace with actual PDF path
+          modalPdf.src = '/JustineCabreros_Confirmation Letter.pdf'; // Replace with actual PDF path
           modalDescription.textContent = 'PDF Preview - Confirmation Letter';
           break;
         case 'dou':
           modalTitle.textContent = 'Deed of Undertaking (DOU) / Waiver';
-          modalPdf.src = '/public/JustineCabreros_UDLRW.pdf'; // Replace with actual PDF path
+          modalPdf.src = '/JustineCabreros_UDLRW.pdf'; // Replace with actual PDF path
           modalDescription.textContent = 'PDF Preview - Deed of Undertaking';
           break;
         case 'certificate':
           modalTitle.textContent = 'Certificate of Completion';
-          modalPdf.src = '/public/JustineCabreros_COC.pdf'; // Replace with actual PDF path
+          modalPdf.src = '/JustineCabreros_COC.pdf'; // Replace with actual PDF path
           modalDescription.textContent = 'Certificate of Completion - 400 hours';
           break;
       }
@@ -512,7 +512,7 @@ export default function OJTPortfolio() {
                       {/* Project Showcase Item 1 */}
                       <div className="bg-gray-50 rounded-md overflow-hidden border border-gray-200">
                         <div className="h-48 bg-gray-200 relative flex items-center justify-center">
-                          <img src="/public/intern.webp" alt="Team collaboration session" className="w-full h-full object-cover" />
+                          <img src="/intern.webp" alt="Team collaboration session" className="w-full h-full object-cover" />
                           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-2">
                             <p className="text-white text-sm">HR Orientation</p>
                           </div>
@@ -526,7 +526,7 @@ export default function OJTPortfolio() {
                       {/* Project Showcase Item 2 */}
                       <div className="bg-gray-50 rounded-md overflow-hidden border border-gray-200">
                         <div className="h-48 bg-gray-200 relative flex items-center justify-center">
-                          <img src="/public/onboarding.webp" alt="Project presentation" className="w-full h-full object-cover" />
+                          <img src="/onboarding.webp" alt="Project presentation" className="w-full h-full object-cover" />
                           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-2">
                             <p className="text-white text-sm">Department Orientation</p>
                           </div>
@@ -540,7 +540,7 @@ export default function OJTPortfolio() {
                       {/* Project Showcase Item 3 */}
                       <div className="bg-gray-50 rounded-md overflow-hidden border border-gray-200">
                         <div className="h-48 bg-gray-200 relative flex items-center justify-center">
-                          <img src="/public/discuss.webp" alt="Workshop session" className="w-full h-full object-cover" />
+                          <img src="/discuss.webp" alt="Workshop session" className="w-full h-full object-cover" />
                           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-2">
                             <p className="text-white text-sm">First Team Meeting</p>
                           </div>
@@ -623,7 +623,7 @@ export default function OJTPortfolio() {
           <div className="p-4 border-b sticky top-0 bg-white z-10">
             <div className="flex items-center justify-center p-2 bg-blue-50 rounded-lg">
               <img 
-                src="/public/2x2.jpg" 
+                src="/2x2.jpg" 
                 alt="Student" 
                 className="w-16 h-16 rounded-full border-2 border-blue-500 object-cover" 
               />
