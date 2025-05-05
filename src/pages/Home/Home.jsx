@@ -554,7 +554,7 @@ export default function OJTPortfolio() {
                       {/* Project Showcase Item 4 */}
                       <div className="bg-gray-50 rounded-md overflow-hidden border border-gray-200">
                         <div className="h-48 bg-gray-200 relative flex items-center justify-center">
-                          <img src="/public/meeting.webp" alt="Final project" className="w-full h-full object-cover" />
+                          <img src="/meeting.webp" alt="Final project" className="w-full h-full object-cover" />
                           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-2">
                             <p className="text-white text-sm">Presentation of Tasks with Mentors</p>
                           </div>
